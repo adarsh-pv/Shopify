@@ -1,0 +1,287 @@
+
+*{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.main{
+    display: flex;
+}
+.head{
+   width:100%;
+   height:1050px;
+  background-image: url(./svg_.svg);
+background-size: cover;
+   display: flex;
+   flex-direction: column;
+   
+
+}
+.head img{
+    margin-top: 1cm;
+    width: 120px;
+    height:1cm;
+    align-self: center;
+}
+.heading{
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    color: white;
+    align-self: center;
+}
+.secondheading{
+    margin-left: 60px;
+    
+}
+.subheading{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 1px;
+    align-self: center;
+    
+}
+.ebs{
+    display: flex;
+    flex-direction: row;
+    background-color: #008060;
+    margin-top: 1cm;
+}
+.enter{
+    width:9cm;
+    height: 1.3cm;
+    border-radius: 6px;
+    font-size: 16px;
+    justify-content: center;
+    margin-left: 13.5cm;
+    border-color: #7d8bab3b;
+    
+
+}
+.button{
+    background-color: #212326;
+    color: white;
+    height: 1.4cm;
+    font-size: 18PX;;
+    width:4cm;
+    border-radius: 8px;
+    justify-content: center;
+    margin-left: .5cm;
+    cursor: pointer;
+    border-width: thin;
+
+    
+}
+.button:hover{
+    background-color:#131416;
+
+}
+.singleword{
+    color: white;
+    font-family: ShopifySans, Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight:lighter;
+    margin-left: 15cm;
+    margin-top: 1cm;
+    font-size: 12px;
+    
+    
+    
+}
+.baging{
+    height: 600px;
+    width: 770px;
+    margin-top: -17cm;
+    margin-left: 10cm;
+    margin-bottom: 30px;
+}
+.outerbox{
+    width: 100%;
+    height: 213px;
+    justify-content: center;
+    display: flex;
+    
+}
+.mainbox{
+    width: 70%;
+    justify-content: space-evenly;
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+#img1{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    background-color: #008060;
+
+}
+.im{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+.text1{
+    font-size: 18px;
+    font-family: helvetica, Arial, sans-serif;
+}
+.para1{
+    font-size: 16px;
+    font-family:Arial, "Lucida Grande", sans-serif;
+    color: #6b7177;
+}
+.line1{
+    font-weight: lighter;
+}
+.element.style {
+       font-weight: lighter;
+
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#img2{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    background-color: #008060;
+}
+.im1{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+.text2{
+    font-size: 18px;
+    font-family: helvetica, Arial, sans-serif;
+}
+.para2{
+    font-size: 16px;
+    font-family:Arial, "Lucida Grande", sans-serif;
+    color: #6b7177;
+    
+}
+.line2{
+    font-weight: lighter;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#img3{
+    width:45px;
+    height:45px;
+    display: flex;
+    background-color: #008060;
+    
+
+}
+.im2{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+.text3{
+    font-size: 18px;
+    font-family: helvetica, Arial, sans-serif;
+}
+.para3{
+    font-size: 16px;
+    font-family:Arial, "Lucida Grande", sans-serif;
+    color: #6b7177;
+
+}
+.line3{
+    font-weight: lighter;
+}
+
+.firstline{
+    margin-top:3cm;
+    margin-bottom: 2.4cm;
+    margin-left: 271px;
+    margin-right: 251px;
+}
+.symbols{
+    display: flex;
+    justify-content: space-between;
+    margin-left:280px ;
+    margin-right: 257px;
+    margin-top:-32px;
+}
+.secondline{
+    margin-top: 1.5cm;
+    margin-bottom: 3cm;
+    margin-left: 271px;
+    margin-right: 251px;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    
+    }
+.finalwrite{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+.finally{
+    margin-left:-14cm;
+    font-weight: lighter;
+
+    
+}
+.smallfinal{
+    margin-top: 1.5cm;
+    margin-left: 17cm;
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+.buttonclass{
+    display: flex;
+    justify-content: center;
+}
+.butten{
+    width:180px;
+    height: 60px;
+    color:white;
+
+    background-color: #008060;
+    border-radius: 7px;
+    margin-top: 1.5cm;
+    border-color: aliceblue;
+    cursor: pointer;
+    
+}
+.butten:hover{
+    background-color: #004c3f;
+}
+.policy{
+    margin-left: 26cm;
+    font-weight: lighter;
+    margin-top: 2cm;;
+    color: #008060;
+    margin-bottom: 20px;
+}
+
+
+
+
+.header{
+    shape-image-threshold: 100%;
+    height:800px;
+    color:#6b7177;
+}
+
+.header img{
+    width: 100%;
+    
+}
